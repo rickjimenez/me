@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'HelveticaNowExtraBold';
+  src: url('fonts/HelveticaNowText-ExtraBold.woff2') format('woff2'),
+    url('fonts/HelveticaNowText-ExtraBold.woff') format('woff'),
+    url('fonts/HelveticaNowText-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNowThin';
+  src: url('fonts/HelveticaNowText-Thin.woff2') format('woff2'),
+    url('fonts/HelveticaNowText-Thin.woff') format('woff'),
+    url('fonts/HelveticaNowText-Thin.ttf') format('truetype');
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  color: #333;
+  margin: 0;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: 'HelveticaNowExtraBold', BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  margin: 0 0 0.5em 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+input[type='range'] {
+  height: 0;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:disabled {
+  color: #999;
+}
+
+button:not(:disabled):active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+}
+button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0 7px;
+}
+button:hover {
+  background-color: rgb(119, 119, 119);
+}
+button:disabled {
+  background: #dddddd;
+  cursor: progress;
+}
+input {
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  padding: 0 7px;
+}
+svg {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #bfbfbf;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bfbfbf;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bfbfbf;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bfbfbf;
+}
+
+.svelte-1ggskci.svelte-1ggskci.toasts > .toast.svelte-1ggskci.svelte-1ggskci {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
